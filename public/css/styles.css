@@ -6,8 +6,8 @@
 }
 
 :root {
-    --bg-header-mobile: url(../imagens/bg-header-mobile-dark.png);
-    --bg-header-desktop: url(../imagens/bg-header-desktop-dark.png);
+    --bg-header-mobile: url(../imagens/bg-header-mobile-light.png);
+    --bg-header-desktop: url(../imagens/bg-header-desktop-light.png);
     --input-box-shadow: rgba(194, 195, 214, 0.50);
     --input-color: #494C6B;
     --input-bg: #fff;
@@ -25,8 +25,8 @@
 } 
 
 body.dark {
-    --bg-header-mobile: url(../imagens/bg-header-mobile-light.png);
-    --bg-header-desktop: url(../imagens/bg-header-desktop-light.png);
+    --bg-header-mobile: url(../imagens/bg-header-mobile-dark.png);
+    --bg-header-desktop: url(../imagens/bg-header-desktop-dark.png);
     --input-box-shadow: rgba(0, 0, 0, 0.50);
     --input-color: #C8CBE7;
     --input-bg: #25273D;
@@ -66,6 +66,12 @@ header div div {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2.5rem;
+}
+
+header button {
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 header div h1 {
